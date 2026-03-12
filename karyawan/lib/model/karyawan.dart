@@ -11,14 +11,11 @@ class Alamat {
 
   factory Alamat.fromJson(Map<String, dynamic> json) {
     return Alamat(
-      jalan: json['jalan'] as String,
-      kota: json['kota'] as String,
-      provinsi: json['provinsi'] as String,
+      jalan: json['jalan'] ?? '',
+      kota: json['kota'] ?? '',
+      provinsi: json['provinsi'] ?? '',
     );
   }
-
-  @override
-  String toString() => '$jalan, $kota, $provinsi';
 }
 
 class Karyawan {
@@ -36,10 +33,10 @@ class Karyawan {
 
   factory Karyawan.fromJson(Map<String, dynamic> json) {
     return Karyawan(
-      nama: json['nama'] as String,
-      umur: json['umur'] as int,
-      alamat: Alamat.fromJson(json['alamat'] as Map<String, dynamic>),
-      hobi: List<String>.from(json['hobi'] as List),
+      nama: json['nama'] ?? '',
+      umur: json['umur'] ?? 0,
+      alamat: Alamat.fromJson(json['alamat'] ?? {}),
+      hobi: List<String>.from(json['hobi'] ?? []),
     );
   }
 }
