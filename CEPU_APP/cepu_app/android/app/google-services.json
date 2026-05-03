@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "250762180114",
+    "project_id": "latihannnn-fae7d",
+    "storage_bucket": "latihannnn-fae7d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250762180114:android:bd3e4d628925acc2d3cacb",
+        "android_client_info": {
+          "package_name": "com.example.cepu_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_2Gyx4tB_HL01g6fZJk82xKQQnXDJJZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250762180114:android:6272646647cd12bdd3cacb",
+        "android_client_info": {
+          "package_name": "com.example.notess"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_2Gyx4tB_HL01g6fZJk82xKQQnXDJJZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
